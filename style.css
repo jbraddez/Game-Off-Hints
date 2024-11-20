@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MedievalSharp", serif;
+}
+
+body{
+    background-color: #2b1600;
+    background-image: url(./bg.jpg);
+    background-position: fixed;
+    background-size: cover;
+    background-origin: center;
+    text-align: center;
+}
+
+h1{
+    margin: 20px 10px;
+    color: #FFD700;
+}
+
+#main{
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    padding: 8px;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    margin: 0 5px 5px 0;
+}
+
+.vignette {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+
+button{
+    padding: 4px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    color: #000;
+    border: solid 2px #000;
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    position: fixed;
+    top: 50dvh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.2rem;
+    padding: 4px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+}
+
+button#b1{
+    background: rgba(0, 255, 0, 0.41);
+}
+
+button#b2{
+    background: rgba(255, 255, 0, 0.61);
+}
+
+button#b3{
+    background: rgba(255, 0, 0, 0.41);
+}
+
+button#eb1{
+    background: rgba(0, 115, 255, 0.61);
+}
